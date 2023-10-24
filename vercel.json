@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "buils": [
+        { "src": "server.js",
+    "use": "@now/node"}
+
+    ],
+    "routers" : [
+      {
+        "src":"/(.*)",
+        "dest":"server.js"
+      }  
+    ]
+}
